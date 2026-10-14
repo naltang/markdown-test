@@ -76,9 +76,9 @@ We tested **40 cases** on the same Gitea 28.1.0 instance and inspected its gener
 
 The trailing characters in the two 12-case groups were Korean, Japanese, Chinese, Thai, Hindi, Arabic, Russian, English letters, ASCII digits, accented Latin, CJK punctuation, and emoji. Every trailing-character case failed for both conventional inline delimiters.
 
-**Public reproduction fixture:** https://git.ycomputing.co.kr/naltang/markdown-test/src/branch/main/MATH-BOUNDARY-REPRO.md
+**Public reproduction fixture:** https://github.com/naltang/markdown-test/blob/main/MATH-BOUNDARY-REPRO.md
 
-**Recorded results:** https://git.ycomputing.co.kr/naltang/markdown-test/src/branch/main/MATH-BOUNDARY-RESULTS.md
+**Recorded results:** https://github.com/naltang/markdown-test/blob/main/MATH-BOUNDARY-RESULTS.md
 
 ## Related issues / implementation note
 

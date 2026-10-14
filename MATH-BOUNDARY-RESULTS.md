@@ -1,7 +1,7 @@
 # Gitea inline-math boundary test results
 
 - Date: 2026-10-14 (KST)
-- Instance: https://git.ycomputing.co.kr/
+- Instance: self-hosted Gitea (original test environment; hostname omitted)
 - Version shown in instance UI: 28.1.0 (reported by the owner)
 - Fixture: [MATH-BOUNDARY-REPRO.md](MATH-BOUNDARY-REPRO.md)
 - Method: fetched the public rendered HTML. Inline math counts as parsed when its paragraph contains `<code class="language-math">`. Display math counts as parsed when its block contains the corresponding math-code node. This measures **server-side parser recognition**, not KaTeX's client-side execution.
